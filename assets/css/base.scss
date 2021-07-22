@@ -1,0 +1,398 @@
+.margin-top {
+    margin-top: 10px;
+}
+
+.margin-top-5 {
+    margin-top: 5px;
+}
+
+.margin-top-15 {
+    margin-top: 15px;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.margin-top-27 {
+    margin-top: 27px;
+}
+
+.margin-top-30 {
+    margin-top: 30px;
+}
+
+.margin-top-40 {
+    margin-top: 40px;
+}
+
+.margin-top-50 {
+    margin-top: 50px;
+}
+
+.margin-top-54 {
+    margin-top: 54px;
+}
+
+.margin-top-60 {
+    margin-top: 60px;
+}
+
+.margin-top-65 {
+    margin-top: 65px;
+}
+
+.margin-top-70 {
+    margin-top: 70px;
+}
+
+.margin-top-80 {
+    margin-top: 80px;
+}
+
+.margin-top-90 {
+    margin-top: 90px;
+}
+
+.margin-top-99 {
+    margin-top: 99px;
+}
+
+.margin-top-100 {
+    margin-top: 100px;
+}
+
+.margin-top-110 {
+    margin-top: 110px;
+}
+
+.margin-top-120 {
+    margin-top: 120px;
+}
+
+.margin-top-140 {
+    margin-top: 140px;
+}
+
+.margin-top-149 {
+    margin-top: 149px;
+}
+
+.margin-top-150 {
+    margin-top: 150px;
+}
+
+.margin-top-160 {
+    margin-top: 160px;
+}
+
+.margin-top-200 {
+    margin-top: 200px;
+}
+
+.margin-top-220 {
+    margin-top: 220px;
+}
+
+.margin-top-230 {
+    margin-top: 230px;
+}
+
+.margin-top-250 {
+    margin-top: 250px;
+}
+
+.margin-top-330 {
+    margin-top: 330px;
+}
+
+.margin-top-350 {
+    margin-top: 350px;
+}
+
+.margin-top-380 {
+    margin-top: 380px;
+}
+
+.margin-top-385 {
+    margin-top: 385px;
+}
+
+.margin-top-390 {
+    margin-top: 390px;
+}
+
+.margin-top-400 {
+    margin-top: 400px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.padding-off {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+p {
+    margin: 0;
+}
+
+.container-off-padding {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.row-off-margin {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.float-box {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    position: fixed;
+    right: 0;
+    z-index: 999;
+    bottom: 40%;
+}
+
+.float-box a {
+    width: 47px;
+    overflow: hidden;
+    color: rgba(255, 255, 255, 0);
+    transition: width 400ms, color 800ms;
+    height: 47px;
+    line-height: 27px;
+    display: block;
+    margin-bottom: 1px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-family: 'Gill Sans Std';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.float-box a:hover {
+    width: 220px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.float-box .chat {
+    background: url(../images/icone-chat.png) no-repeat right 10px center;
+    background-color: rgba(0, 0, 0, 0);
+    background-color: #cd1418;
+}
+
+.float-box .phone {
+    background: url(../images/icone-tel.png) no-repeat right 10px center;
+    background-color: rgba(0, 0, 0, 0);
+    background-color: #cd1418;
+    font-size: 18px;
+}
+
+.float-box .mail {
+    background: url(../images/icone-mail.png) no-repeat right 10px center;
+    background-color: rgba(0, 0, 0, 0);
+    background-color: #cd1418;
+}
+
+.float-box .whats {
+    background: url(../images/icone-zap.png) no-repeat right 10px center;
+    background-color: rgba(0, 0, 0, 0);
+    background-color: #cd1418;
+}
+
+.aviso {
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99999;
+
+    div {
+        display: table;
+        margin: 10% auto 0;
+        width: 40%;
+        background-color: #d8602c;
+        padding: 20px 10px;
+        position: relative;
+
+        .close {
+            text-shadow: none;
+            opacity: 1;
+            position: absolute;
+            right: 0;
+            top: -35px;
+            z-index: 999;
+            color: #fff;
+            font-size: 35px;
+            line-height: 35px;
+        }
+
+        p {
+            font-family: 'Montserrat';
+            font-weight: bold;
+            font-style: normal;
+            font-size: 18px;
+            line-height: 1.667;
+            color: #000000;
+        }
+    }
+}
+
+.modalMapa,
+.modalFichaTecnica,
+.modalImplantacao {
+    .close {
+        color: #fff;
+        text-shadow: none;
+        opacity: 1;
+        position: absolute;
+        top: -26px;
+        right: -19px;
+        font-size: 15px;
+        line-height: 15px;
+        border-radius: 100px;
+        border: solid 1px #fff;
+        padding: 2px 5px 2px;
+    }
+
+    .modal-dialog {
+        width: 1200px;
+        margin: 50px auto;
+    }
+
+    .modal-body {
+        padding: 0px;
+    }
+}
+
+.cookies {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+    height: 100%;
+    top: 0;
+    display: none;
+
+    .box {
+        background-color: #d8602c;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        position: absolute;
+        bottom: 20px;
+
+        p {
+            font-family: 'Montserrat';
+            font-weight: normal;
+            font-style: normal;
+            color: #fff;
+            font-size: 12px;
+            line-height: 14px;
+            margin-top: 7px;
+
+            a {
+                color: #fff;
+            }
+        }
+
+        .btn_cookie {
+            font-family: 'Montserrat';
+            font-weight: bold;
+            font-style: normal;
+            font-size: 16px;
+            line-height: 16px;
+            color: #fff;
+            border: 0px solid transparent;
+            border-radius: 50px;
+            padding: 12px 30px;
+            width: 160px;
+            margin-top: 7px;
+            box-shadow: none;
+            background: #000000;
+        }
+    }
+}
+
+.modalFicha {
+    background-color: rgba(0, 0, 0, 0.5);
+
+    .modal-content {
+        background-color: #fcd800;
+        border: 0px solid transparent;
+        box-shadow: none;
+    }
+
+    .modal-body {
+        padding: 8px;
+    }
+
+    .close {
+        font-size: 27px;
+        color: #fff;
+        text-shadow: none;
+        opacity: 1;
+        position: absolute;
+        top: -20px;
+        right: -20px;
+        z-index: 100;
+    }
+}
+
+
+/* Extra Small */
+@media(max-width:767px) {
+    .padding-off-mobile {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .aviso {
+        div {
+            margin: 30% auto 0;
+            width: 95%;
+        }
+    }
+
+    .modalMapa,
+    .modalFichaTecnica,
+    .modalImplantacao {
+        .close {
+            top: -26px;
+            right: 0px;
+        }
+
+        .modal-dialog {
+            width: auto;
+            margin: 30% auto 0;
+        }
+    }
+
+    .cookies {
+        .box {
+            padding-top: 10px;
+
+            .btn_cookie {
+                margin-top: 20px;
+            }
+        }
+    }
+
+    .modalFicha {
+        .modal-dialog {
+            margin: 6% auto 0;
+        }
+    }
+}

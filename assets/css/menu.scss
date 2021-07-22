@@ -1,0 +1,122 @@
+.menu {
+    width: 100%;
+    position: fixed;
+    background-color: #000000;
+    border-color: transparent;
+    min-height: auto;
+    margin-bottom: 0px;
+    border: 0px solid transparent;
+    z-index: 200;
+    border-radius: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    .navbar-brand {
+        height: auto;
+        padding: 0 0 0 0;
+    }
+
+    .navbar-right {
+        padding: 10px 30px;
+
+        li>a {
+            font-size: 15px;
+            line-height: 15px;
+            color: #fff;
+            text-transform: uppercase;
+            font-family: 'Montserrat';
+            font-weight: 500;
+            font-style: normal;
+        }
+
+        li>a::after {
+            content: "\2219";
+            color: #ee6a01;
+            font-size: 50px;
+            position: absolute;
+            right: -8px;
+        }
+
+        li:last-child a {
+            border-right: solid 0px transparent;
+        }
+
+        li:last-child a::after {
+            content: "";
+        }
+
+        li>a:focus,
+        li>a:hover {
+            color: #ee6a01;
+        }
+    }
+}
+
+.navbar-toggle {
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+.menu .navbar-toggle {
+    border-color: #fff;
+}
+
+.menu .navbar-toggle:focus,
+.menu .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+
+/* Extra Small */
+@media(max-width:767px) {
+    .menu {
+        padding-top: 0px;
+        padding-bottom: 0px;
+
+        .navbar-brand {
+            height: auto;
+            padding: 7px 0 7px 0;
+
+            img {
+                width: 70%;
+            }
+        }
+
+        .navbar-right {
+            padding: 0px 15px;
+        }
+
+        .navbar-nav {
+            margin: 0 -15px 7.5px;
+        }
+
+        .navbar-collapse,
+        .navbar-form {
+            border-color: transparent;
+            box-shadow: none;
+        }
+
+        .navbar-right li>a {
+            border-bottom: solid 1px #ee6a01;
+        }
+
+        .navbar-right li:last-child a {
+            border-bottom: solid 0px transparent;
+        }
+
+        .navbar-right li>a::after {
+            content: "";
+        }
+
+    }
+
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {}
+
+/* Large */
+@media(min-width:1200px) {}

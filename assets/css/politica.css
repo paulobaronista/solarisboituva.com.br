@@ -1,0 +1,52 @@
+.politica {
+  padding-bottom: 30px;
+  padding-top: 100px;
+}
+
+.politica .politica-tt {
+  padding-top: 30px;
+  padding-bottom: 0px;
+}
+
+.politica .politica-tt h3 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-style: normal;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 35px;
+  line-height: 35px;
+  margin: 0;
+  padding: 0;
+}
+
+.politica .politica-info {
+  margin-top: 30px;
+}
+
+.politica .politica-info p {
+  font-family: 'Montserrat';
+  font-weight: normal;
+  font-style: normal;
+  color: #000;
+  font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.politica .politica-info p a {
+  color: #EC2c27;
+  text-decoration: underline;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .politica {
+    padding-top: 60px;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+/*# sourceMappingURL=politica.css.map */
