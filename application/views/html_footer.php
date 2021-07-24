@@ -3,6 +3,9 @@
 echo script_tag('assets/js/jquery.clearinput.js');
 echo script_tag('assets/js/jFuncoes.js');
 echo script_tag('assets/js/bootstrap.min.js');
+echo script_tag('assets/js/nbw-parallax.js');
+echo script_tag('assets/js/jquery.inview.js');
+
 ?>
 
 <!-- <div class="float-box">

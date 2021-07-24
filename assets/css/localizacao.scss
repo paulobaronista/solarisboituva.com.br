@@ -1,0 +1,94 @@
+.localizacao {
+    background: url(../images/bg_localizacao.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    .tt {
+        font-family: 'Helvetica Neue LT Std';
+        font-weight: 300;
+        font-style: normal;
+        color: #000000;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-size: 24px;
+        line-height: 34px;
+        margin-bottom: 30px;
+
+        span {
+            font-weight: 900;
+            font-style: normal;
+        }
+    }
+
+    .txt {
+        font-family: 'Helvetica Neue LT Std';
+        font-weight: 300;
+        font-style: normal;
+        color: #000000;
+        font-size: 15px;
+        line-height: 25px;
+        margin-bottom: 40px;
+    }
+}
+
+.fotoAerea {
+    background: url(../images/bg_fotoAerea.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    .tt {
+        font-family: 'Helvetica Neue LT Std';
+        font-weight: 900;
+        font-style: normal;
+        color: #000000;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-size: 24px;
+        line-height: 34px;
+        margin-bottom: 30px;
+    }
+}
+
+
+
+/* Extra Small */
+@media(max-width:767px) {
+    .localizacao {
+        background: url(../images/bg_localizacao-mobile.jpg) no-repeat;
+        background-position: center center;
+        background-size: cover;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+        .tt {
+            font-size: 24px;
+            line-height: 34px;
+            margin-bottom: 10px;
+        }
+
+        .txt {
+            font-size: 15px;
+            line-height: 25px;
+            margin-bottom: 20px;
+        }
+    }
+    .fotoAerea {
+        background: #ffffff;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    
+    }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {}
+
+/* Large */
+@media(min-width:1200px) {}

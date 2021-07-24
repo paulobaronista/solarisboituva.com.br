@@ -30,7 +30,7 @@ $(document).ready(function () {
         $(this).addClass('active');
         var target = this.hash,
             $target = $(target);
-        $('html, body').stop().animate({ scrollTop: $target.offset().top - 130 }, 500, 'swing', function () {
+        $('html, body').stop().animate({ scrollTop: $target.offset().top - 69 }, 500, 'swing', function () {
             // window.location.hash = target;
             $(document).on("scroll", onScroll);
         });
