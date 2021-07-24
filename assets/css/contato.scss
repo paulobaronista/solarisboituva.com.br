@@ -1,6 +1,102 @@
+.contato {
+    background: url(../images/bg_contato.jpg) no-repeat;
+    background-position: top center;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 10px;
+
+    p {
+        font-family: 'Helvetica Neue LT Std';
+        font-weight: 900;
+        font-style: normal;
+        color: #000000;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-size: 23px;
+        line-height: 43px;
+        margin-bottom: 30px;
+    }
+
+    .form {
+        margin-top: 50px;
+        margin-bottom: 60px;
+        position: relative;
+    }
+
+    .form-control {
+        font-family: 'Montserrat';
+        font-weight: 200;
+        font-style: normal;
+        font-size: 12px;
+        line-height: 1.42857143;
+        text-transform: uppercase;
+        height: 55px;
+        display: block;
+        width: 100%;
+        padding: 6px 12px;
+        color: #000000;
+        background-color: #dadeb9;
+        background-image: none;
+        border: 1px solid #dadeb9;
+        border-radius: 10px;
+        box-shadow: none;
+
+        &::-webkit-input-placeholder {
+            color: #000000;
+        }
+
+        &:-ms-input-placeholder {
+            color: #000000;
+        }
+
+        &::placeholder {
+            color: #000000;
+        }
+    }
+
+    textarea {
+        height: 150px !important;
+    }
+
+    .btn_enviar {
+        font-family: 'Montserrat';
+        font-weight: 500;
+        font-style: normal;
+        padding: 6px 12px;
+        font-size: 17px;
+        line-height: 21px;
+        width: 130px;
+        height: 50px;
+        border: 0px solid transparent;
+        border-radius: 14px;
+        background-color: #8996b9;
+        color: #ffffff;
+        text-transform: uppercase;
+        float: right;
+        outline: none;
+    }
+}
+
+
+
 /* Extra Small */
 @media(max-width:767px) {
+    .contato {
+        padding-top: 40px;
+        background-color: #ffffff;
 
+        p {
+            letter-spacing: 1px;
+            font-size: 17px;
+            line-height: 20px;
+            margin-bottom: 10px;
+        }
+
+        .form {
+            margin-top: 30px;
+        }
+
+    }
 }
 
 /* Small */

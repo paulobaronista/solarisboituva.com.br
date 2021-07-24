@@ -233,8 +233,9 @@ p {
   display: table;
   margin: 10% auto 0;
   width: 40%;
-  background-color: #d8602c;
-  padding: 20px 10px;
+  background-color: #f36e3c;
+  border-radius: 14px;
+  padding: 40px 10px;
   position: relative;
 }
 
@@ -252,11 +253,11 @@ p {
 
 .aviso div p {
   font-family: 'Montserrat';
-  font-weight: bold;
+  font-weight: 500;
   font-style: normal;
   font-size: 18px;
   line-height: 1.667;
-  color: #000000;
+  color: #ffffff;
 }
 
 .modalMapa .close,
@@ -299,16 +300,17 @@ p {
 }
 
 .cookies .box {
-  background-color: #d8602c;
+  background-color: #f36e3c;
   padding-top: 20px;
   padding-bottom: 20px;
+  border-radius: 14px;
   position: absolute;
   bottom: 20px;
 }
 
 .cookies .box p {
   font-family: 'Montserrat';
-  font-weight: normal;
+  font-weight: 500;
   font-style: normal;
   color: #fff;
   font-size: 12px;
@@ -318,15 +320,15 @@ p {
 
 .cookies .box p a {
   color: #fff;
+  text-decoration: underline;
 }
 
 .cookies .box .btn_cookie {
   font-family: 'Montserrat';
-  font-weight: bold;
+  font-weight: 500;
   font-style: normal;
   font-size: 16px;
   line-height: 16px;
-  color: #fff;
   border: 0px solid transparent;
   border-radius: 50px;
   padding: 12px 30px;
@@ -334,7 +336,8 @@ p {
   margin-top: 7px;
   -webkit-box-shadow: none;
           box-shadow: none;
-  background: #000000;
+  background-color: #8996b9;
+  color: #ffffff;
 }
 
 .modalFicha {

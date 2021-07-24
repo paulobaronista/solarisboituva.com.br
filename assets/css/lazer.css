@@ -1,0 +1,124 @@
+.lazer {
+  background: url(../images/bg_lazer.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  position: relative;
+}
+
+.lazer .tt {
+  font-family: 'Helvetica Neue LT Std';
+  font-weight: 900;
+  font-style: normal;
+  color: #000000;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 18px;
+  line-height: 38px;
+  margin-bottom: 30px;
+}
+
+.lazer .girasol_home_5 {
+  position: absolute;
+  bottom: -88%;
+  left: 0;
+  z-index: 200;
+}
+
+.diferenciais {
+  position: relative;
+}
+
+.diferenciais .girasol_home_6 {
+  position: absolute;
+  bottom: -43%;
+  right: 0;
+  z-index: 200;
+}
+
+.eomelhor {
+  background: url(../images/bg_galeria.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 70px;
+  padding-bottom: 80px;
+  position: relative;
+}
+
+.eomelhor .tt {
+  font-family: 'Helvetica Neue LT Std';
+  font-weight: 900;
+  font-style: normal;
+  color: #000000;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 5px;
+  margin-bottom: 40px;
+}
+
+.eomelhor .txt {
+  font-family: 'Helvetica Neue LT Std';
+  font-weight: 300;
+  font-style: normal;
+  color: #000000;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 40px;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .lazer {
+    background: url(../images/bg_lazer-mobile.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .lazer .tt {
+    letter-spacing: 3px;
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 30px;
+  }
+  .lazer .girasol_home_5 {
+    width: 35%;
+    position: absolute;
+    bottom: -29%;
+    left: 0;
+    z-index: 200;
+  }
+  .diferenciais {
+    position: relative;
+  }
+  .diferenciais .girasol_home_6 {
+    width: 37%;
+    position: absolute;
+    bottom: -23%;
+    right: 0;
+  }
+  .eomelhor {
+    background: url(../images/bg_galeria-mobile.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+  .eomelhor .tt {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+  }
+  .eomelhor .txt {
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 30px;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+/*# sourceMappingURL=lazer.css.map */

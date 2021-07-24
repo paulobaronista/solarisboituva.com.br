@@ -332,8 +332,9 @@ p {
   display: table;
   margin: 10% auto 0;
   width: 40%;
-  background-color: #d8602c;
-  padding: 20px 10px;
+  background-color: #f36e3c;
+  border-radius: 14px;
+  padding: 40px 10px;
   position: relative;
 }
 
@@ -351,11 +352,11 @@ p {
 
 .aviso div p {
   font-family: 'Montserrat';
-  font-weight: bold;
+  font-weight: 500;
   font-style: normal;
   font-size: 18px;
   line-height: 1.667;
-  color: #000000;
+  color: #ffffff;
 }
 
 .modalMapa .close,
@@ -398,16 +399,17 @@ p {
 }
 
 .cookies .box {
-  background-color: #d8602c;
+  background-color: #f36e3c;
   padding-top: 20px;
   padding-bottom: 20px;
+  border-radius: 14px;
   position: absolute;
   bottom: 20px;
 }
 
 .cookies .box p {
   font-family: 'Montserrat';
-  font-weight: normal;
+  font-weight: 500;
   font-style: normal;
   color: #fff;
   font-size: 12px;
@@ -417,15 +419,15 @@ p {
 
 .cookies .box p a {
   color: #fff;
+  text-decoration: underline;
 }
 
 .cookies .box .btn_cookie {
   font-family: 'Montserrat';
-  font-weight: bold;
+  font-weight: 500;
   font-style: normal;
   font-size: 16px;
   line-height: 16px;
-  color: #fff;
   border: 0px solid transparent;
   border-radius: 50px;
   padding: 12px 30px;
@@ -433,7 +435,8 @@ p {
   margin-top: 7px;
   -webkit-box-shadow: none;
           box-shadow: none;
-  background: #000000;
+  background-color: #8996b9;
+  color: #ffffff;
 }
 
 .modalFicha {
@@ -505,6 +508,9 @@ p {
   border: 0px solid transparent;
   z-index: 300;
   border-radius: 0px;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.24);
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.24);
 }
 
 .menu .navbar-brand {
@@ -703,6 +709,11 @@ p {
     letter-spacing: 3px;
     margin-bottom: 20px;
   }
+  .conceito .girasol_home_3 {
+    position: absolute;
+    bottom: -30%;
+    left: 0;
+  }
 }
 
 /* Small */
@@ -840,18 +851,433 @@ p {
   background-position: top center;
   background-size: cover;
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 60px;
+  position: relative;
+}
+
+.terrenos .tt {
+  font-family: 'Helvetica Neue LT Std';
+  font-weight: 300;
+  font-style: normal;
+  color: #000000;
+  font-size: 28px;
+  line-height: 48px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.terrenos .tt span {
+  font-size: 36px;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.terrenos .txt_1 {
+  font-family: 'Helvetica Neue LT Std';
+  font-weight: 900;
+  font-style: normal;
+  color: #000000;
+  font-size: 24px;
+  line-height: 44px;
+  letter-spacing: 3px;
+}
+
+.terrenos .txt_2 {
+  font-family: 'Helvetica Neue LT Std';
+  font-weight: 900;
+  font-style: normal;
+  color: #000000;
+  font-size: 16px;
+  line-height: 36px;
+  letter-spacing: 3px;
+}
+
+.terrenos .txt_3 {
+  font-family: 'Helvetica Neue LT Std';
+  font-weight: 300;
+  font-style: normal;
+  color: #000000;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 10px;
+}
+
+.terrenos .galeria {
+  position: relative;
+  z-index: 200;
+}
+
+.terrenos .BeneditoAbbud {
+  position: relative;
+  z-index: 200;
+  margin-top: 60px;
+}
+
+.terrenos .BeneditoAbbud p {
+  font-family: 'Helvetica Neue LT Std';
+  font-weight: 300;
+  font-style: normal;
+  color: #000000;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.terrenos .girasol_home_4 {
+  position: absolute;
+  bottom: -30%;
+  right: 0;
+  z-index: 200;
 }
 
 /* Extra Small */
+@media (max-width: 767px) {
+  .terrenos {
+    background: url(../images/bg_terrenos-mobile.jpg) no-repeat;
+    background-position: top center;
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .terrenos .tt {
+    font-size: 25px;
+    line-height: 45px;
+  }
+  .terrenos .tt span {
+    font-size: 36px;
+  }
+  .terrenos .txt_1 {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .terrenos .txt_2 {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .terrenos .txt_3 {
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 10px;
+  }
+  .terrenos .BeneditoAbbud {
+    margin-top: 40px;
+  }
+  .terrenos .BeneditoAbbud p {
+    margin-top: 10px;
+  }
+  .terrenos .girasol_home_4 {
+    width: 37%;
+    position: absolute;
+    bottom: -13%;
+    right: 0;
+  }
+}
+
 /* Small */
 /* Medium */
 /* Large */
+.lazer {
+  background: url(../images/bg_lazer.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  position: relative;
+}
+
+.lazer .tt {
+  font-family: 'Helvetica Neue LT Std';
+  font-weight: 900;
+  font-style: normal;
+  color: #000000;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 18px;
+  line-height: 38px;
+  margin-bottom: 30px;
+}
+
+.lazer .girasol_home_5 {
+  position: absolute;
+  bottom: -88%;
+  left: 0;
+  z-index: 200;
+}
+
+.diferenciais {
+  position: relative;
+}
+
+.diferenciais .girasol_home_6 {
+  position: absolute;
+  bottom: -43%;
+  right: 0;
+  z-index: 200;
+}
+
+.eomelhor {
+  background: url(../images/bg_galeria.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 70px;
+  padding-bottom: 80px;
+  position: relative;
+}
+
+.eomelhor .tt {
+  font-family: 'Helvetica Neue LT Std';
+  font-weight: 900;
+  font-style: normal;
+  color: #000000;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 5px;
+  margin-bottom: 40px;
+}
+
+.eomelhor .txt {
+  font-family: 'Helvetica Neue LT Std';
+  font-weight: 300;
+  font-style: normal;
+  color: #000000;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 40px;
+}
+
 /* Extra Small */
+@media (max-width: 767px) {
+  .lazer {
+    background: url(../images/bg_lazer-mobile.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .lazer .tt {
+    letter-spacing: 3px;
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 30px;
+  }
+  .lazer .girasol_home_5 {
+    width: 35%;
+    position: absolute;
+    bottom: -29%;
+    left: 0;
+    z-index: 200;
+  }
+  .diferenciais {
+    position: relative;
+  }
+  .diferenciais .girasol_home_6 {
+    width: 37%;
+    position: absolute;
+    bottom: -23%;
+    right: 0;
+  }
+  .eomelhor {
+    background: url(../images/bg_galeria-mobile.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+  .eomelhor .tt {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+  }
+  .eomelhor .txt {
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 30px;
+  }
+}
+
 /* Small */
 /* Medium */
 /* Large */
+.contato {
+  background: url(../images/bg_contato.jpg) no-repeat;
+  background-position: top center;
+  background-size: cover;
+  padding-top: 80px;
+  padding-bottom: 10px;
+}
+
+.contato p {
+  font-family: 'Helvetica Neue LT Std';
+  font-weight: 900;
+  font-style: normal;
+  color: #000000;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 23px;
+  line-height: 43px;
+  margin-bottom: 30px;
+}
+
+.contato .form {
+  margin-top: 50px;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+.contato .form-control {
+  font-family: 'Montserrat';
+  font-weight: 200;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 1.42857143;
+  text-transform: uppercase;
+  height: 55px;
+  display: block;
+  width: 100%;
+  padding: 6px 12px;
+  color: #000000;
+  background-color: #dadeb9;
+  background-image: none;
+  border: 1px solid #dadeb9;
+  border-radius: 10px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.contato .form-control::-webkit-input-placeholder {
+  color: #000000;
+}
+
+.contato .form-control:-ms-input-placeholder {
+  color: #000000;
+}
+
+.contato .form-control::-ms-input-placeholder {
+  color: #000000;
+}
+
+.contato .form-control::placeholder {
+  color: #000000;
+}
+
+.contato textarea {
+  height: 150px !important;
+}
+
+.contato .btn_enviar {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-style: normal;
+  padding: 6px 12px;
+  font-size: 17px;
+  line-height: 21px;
+  width: 130px;
+  height: 50px;
+  border: 0px solid transparent;
+  border-radius: 14px;
+  background-color: #8996b9;
+  color: #ffffff;
+  text-transform: uppercase;
+  float: right;
+  outline: none;
+}
+
 /* Extra Small */
+@media (max-width: 767px) {
+  .contato {
+    padding-top: 40px;
+    background-color: #ffffff;
+  }
+  .contato p {
+    letter-spacing: 1px;
+    font-size: 17px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+  .contato .form {
+    margin-top: 30px;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+footer {
+  position: relative;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+footer figcaption {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-style: normal;
+  color: #000;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+footer p {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-style: normal;
+  color: #000;
+}
+
+footer figcaption {
+  font-size: 15px;
+  line-height: 15px;
+}
+
+footer p {
+  font-size: 11px;
+  line-height: 15px;
+}
+
+footer .navbar-nav {
+  margin-top: 20px;
+}
+
+footer .navbar-nav li {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+footer .navbar-nav li > a {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-style: normal;
+  color: #000;
+  font-size: 11px;
+  line-height: 11px;
+  border-right: 1px solid #000;
+}
+
+footer .navbar-nav li > a:focus,
+footer .navbar-nav li > a:hover {
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+footer .navbar-nav li:last-child a {
+  border-right: 0px solid transparent;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  footer {
+    padding-top: 30px;
+    padding-bottom: 15px;
+  }
+  footer p {
+    font-size: 11px;
+    line-height: 15px;
+  }
+}
+
 /* Small */
 /* Medium */
 /* Large */
@@ -866,8 +1292,8 @@ p {
 }
 
 .politica .politica-tt h3 {
-  font-family: 'Montserrat';
-  font-weight: bold;
+  font-family: 'Helvetica Neue LT Std';
+  font-weight: 900;
   font-style: normal;
   color: #000;
   text-transform: uppercase;
@@ -883,7 +1309,7 @@ p {
 
 .politica .politica-info p {
   font-family: 'Montserrat';
-  font-weight: normal;
+  font-weight: 500;
   font-style: normal;
   color: #000;
   font-size: 15px;

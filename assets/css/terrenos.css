@@ -3,10 +3,127 @@
   background-position: top center;
   background-size: cover;
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 60px;
+  position: relative;
+}
+
+.terrenos .tt {
+  font-family: 'Helvetica Neue LT Std';
+  font-weight: 300;
+  font-style: normal;
+  color: #000000;
+  font-size: 28px;
+  line-height: 48px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.terrenos .tt span {
+  font-size: 36px;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.terrenos .txt_1 {
+  font-family: 'Helvetica Neue LT Std';
+  font-weight: 900;
+  font-style: normal;
+  color: #000000;
+  font-size: 24px;
+  line-height: 44px;
+  letter-spacing: 3px;
+}
+
+.terrenos .txt_2 {
+  font-family: 'Helvetica Neue LT Std';
+  font-weight: 900;
+  font-style: normal;
+  color: #000000;
+  font-size: 16px;
+  line-height: 36px;
+  letter-spacing: 3px;
+}
+
+.terrenos .txt_3 {
+  font-family: 'Helvetica Neue LT Std';
+  font-weight: 300;
+  font-style: normal;
+  color: #000000;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 10px;
+}
+
+.terrenos .galeria {
+  position: relative;
+  z-index: 200;
+}
+
+.terrenos .BeneditoAbbud {
+  position: relative;
+  z-index: 200;
+  margin-top: 60px;
+}
+
+.terrenos .BeneditoAbbud p {
+  font-family: 'Helvetica Neue LT Std';
+  font-weight: 300;
+  font-style: normal;
+  color: #000000;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.terrenos .girasol_home_4 {
+  position: absolute;
+  bottom: -30%;
+  right: 0;
+  z-index: 200;
 }
 
 /* Extra Small */
+@media (max-width: 767px) {
+  .terrenos {
+    background: url(../images/bg_terrenos-mobile.jpg) no-repeat;
+    background-position: top center;
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .terrenos .tt {
+    font-size: 25px;
+    line-height: 45px;
+  }
+  .terrenos .tt span {
+    font-size: 36px;
+  }
+  .terrenos .txt_1 {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .terrenos .txt_2 {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .terrenos .txt_3 {
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 10px;
+  }
+  .terrenos .BeneditoAbbud {
+    margin-top: 40px;
+  }
+  .terrenos .BeneditoAbbud p {
+    margin-top: 10px;
+  }
+  .terrenos .girasol_home_4 {
+    width: 37%;
+    position: absolute;
+    bottom: -13%;
+    right: 0;
+  }
+}
+
 /* Small */
 /* Medium */
 /* Large */

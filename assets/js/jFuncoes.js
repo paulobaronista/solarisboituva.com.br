@@ -1,7 +1,16 @@
+$(document).on('ready', function () {
+	$('.galeria-perpectivas').slick({
+		draggable: false,
+		arrows: true,
+		dots: false,
+		infinite: true,
+	});
+});
+
 $(document).ready(function () {
 	$("#close").click(function () {
 		$("#aviso").hide();
-		window.location.href = "https://www.thefirstjardim.com.br/"
+		window.location.href = "https://www.solarisboituva.com.br/"
 	});
 });
 

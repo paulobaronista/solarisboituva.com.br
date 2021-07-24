@@ -1,5 +1,79 @@
+footer {
+    position: relative;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    figcaption {
+        font-family: 'Montserrat';
+        font-weight: 500;
+        font-style: normal;
+        color: #000;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+
+    p {
+        font-family: 'Montserrat';
+        font-weight: 500;
+        font-style: normal;
+        color: #000;
+    }
+
+    figcaption {
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+    p {
+        font-size: 11px;
+        line-height: 15px;
+    }
+
+    .navbar-nav {
+        margin-top: 20px;
+
+        li {
+            padding-top: 7px;
+            padding-bottom: 7px;
+        }
+
+        li>a {
+            padding-top: 0px;
+            padding-bottom: 0px;
+            font-family: 'Montserrat';
+            font-weight: 500;
+            font-style: normal;
+            color: #000;
+            font-size: 11px;
+            line-height: 11px;
+            border-right: 1px solid #000;
+        }
+
+        li>a:focus,
+        li>a:hover {
+            text-decoration: underline;
+            background-color: transparent;
+        }
+
+        li:last-child a {
+            border-right: 0px solid transparent;
+        }
+    }
+}
+
+
 /* Extra Small */
 @media(max-width:767px) {
+    footer {
+        padding-top: 30px;
+        padding-bottom: 15px;
+
+        p {
+            font-size: 11px;
+            line-height: 15px;
+        }
+    }
 }
 
 /* Small */
@@ -9,4 +83,4 @@
 @media(min-width:992px) and (max-width:1199px) {}
 
 /* Large */
-@media(min-width:1200px) {}
+@media(min-width:1200px) {} 

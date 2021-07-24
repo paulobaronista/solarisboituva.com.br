@@ -18,9 +18,9 @@
                 <li><a class="scrollink" href="#video">FILME</a></li>
                 <li><a class="scrollink" href="#localizacao">LOCALIZAÇÃO</a></li>
                 <li><a class="scrollink" href="#terrenos">TERRENOS</a></li>
-                <li><a class="scrollink" href="#">LAZER</a></li>
-                <li><a class="scrollink" href="#">DIFERENCIAIS</a></li>
-                <li><a class="scrollink" href="#">GALERIA</a></li>
+                <li><a class="scrollink" href="#lazer">LAZER</a></li>
+                <li><a class="scrollink" href="#diferenciais">DIFERENCIAIS</a></li>
+                <li><a class="scrollink" href="#galeria">GALERIA</a></li>
                 <li><a class="scrollink" href="#contato">Contato</a></li>
             </ul>
         </div>
@@ -127,42 +127,90 @@
 <div id="terrenos" class="container-fluid padding-off terrenos">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                <p class="">
-                    Terrenos a partir de 420 m ²
+            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-6 col-lg-offset-3 text-center">
+                <p class="tt">
+                    Terrenos a partir de <span>420 m²</span>
                 </p>
-                <p>
+                <p class="txt_1">
                     PRONTOS PARA CONSTRUIR.
                 </p>
-                <hr>
-                <p>
+                <hr style="height:1px;color:#000000;background-color:#000000;border: 0;">
+                <p class="txt_2">
                     LOTEAMENTO FECHADO. SEGURANÇA 24 HORAS.
                 </p>
-                <p>
+                <p class="txt_3">
                     Central de monitoramento 24 horas com gravações de áudio e vídeo - Controle de acesso dos moradores,
                     visitantes e prestadores de serviços - Rondas diurnas e noturnas - Equipe treinada com experiência
                     para atendimentos emergenciais (24 horas on-line)
                 </p>
             </div>
+            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 margin-top-30">
+                <div class="galeria">
+                    <section class="galeria-perpectivas slider">
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/perspectiva.jpg" alt="Solaris Residencial & Resort">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/perspectiva.jpg" alt="Solaris Residencial & Resort">
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 BeneditoAbbud">
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/BeneditoAbbud.png" alt="Benedito Abbud">
+                </div>
+                <div class="col-xs-12 col-sm-7 col-md-8 col-lg-8">
+                    <p>
+                        Nonononon onon onononon onononon ono nonono nonoonon
+                        nononono onononnon nnononon oonon oonono oononon onono ononnon
+                        nonoonononon onon onononononon ooononon onono oo onononoo
+                        nononon oononono onononon nonoonon onononono.
+                        <br />
+                        <strong>Benedito Abbud</strong>
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
+    <img class="img-responsive center-block girasol_home_4" src="<?= base_url(); ?>assets/images/girasol_home_4.png" alt="Solaris Residencial & Resort">
 </div>
-
-
-
-
-
-
-
-
-
-
-
-<div class="container-fluid endereco">
+<div id="lazer" class="container-fluid padding-off lazer">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 text-center padding-off">
-                <p><strong>AL. FRANCISCO ALVES, 115 - JARDIM - SANTO ANDRÉ</strong></p>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                <p class="tt">
+                    CLUBE E CENTRO HÍPICO COMPLETOS E PRONTOS.<br />
+                    É SÓ CHEGAR, APROVEITAR E DEIXAR A VIDA BRILHAR.
+                </p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/lazer.jpg" alt="Solaris Residencial & Resort">
+            </div>
+        </div>
+    </div>
+    <img class="img-responsive center-block girasol_home_5" src="<?= base_url(); ?>assets/images/girasol_home_5.png" alt="Solaris Residencial & Resort">
+</div>
+<div id="diferenciais" class="container-fluid padding-off diferenciais">
+    <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/diferenciais.jpg" alt="Solaris Residencial & Resort">
+    <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/diferenciais-mobile.jpg" alt="Solaris Residencial & Resort">
+    <img class="img-responsive center-block girasol_home_6" src="<?= base_url(); ?>assets/images/girasol_home_6.png" alt="Solaris Residencial & Resort">
+</div>
+<div id="galeria" class="container-fluid padding-off eomelhor">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 text-center">
+                <p class="tt">
+                    E O MELHOR: VOCÊ PODE VIVER TUDO ISSO HOJE.
+                </p>
+                <p class="txt">
+                    Enquanto sua casa está em construção, você e sua família já podem aproveitar todo este privilégio.<br class="hidden-xs" />
+                    Solaris oferece uma gostosa e confortável pousada para vocês virem quando quiserem.<br class="hidden-xs" />
+                    Afinal, o sol está brilhando e não há um segundo a perder.
+                </p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/eomelhor.jpg" alt="Solaris Residencial & Resort">
             </div>
         </div>
     </div>
@@ -170,10 +218,17 @@
 <div id="contato" class="container-fluid contato">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 text-center padding-off tt">
-                <p>SEU <strong>ÍCONE</strong> AGUARDA POR VOCÊ.</p>
+            <div class="col-xs-12 col-sm-12 col-md-12 text-center padding-off">
+                <p>
+                    <strong>
+                        NO SOLARIS A VIDA E O LAZER SÃO GRANDES.<br/>
+                        JÁ OS PREÇOS, CABEM NO SEU BOLSO.<br/><br/>
+
+                        SAIBA MAIS E SURPREENDA-SE.
+                    </strong>
+                </p>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 padding-off">
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 padding-off form">
                 <form method="post" role="form" action="<?php echo base_url("contato") ?>">
                     <div class="group-form">
                         <div class="col-xs-12 col-sm-12 col-md-12">

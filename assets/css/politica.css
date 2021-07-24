@@ -9,8 +9,8 @@
 }
 
 .politica .politica-tt h3 {
-  font-family: 'Montserrat';
-  font-weight: bold;
+  font-family: 'Helvetica Neue LT Std';
+  font-weight: 900;
   font-style: normal;
   color: #000;
   text-transform: uppercase;
@@ -26,7 +26,7 @@
 
 .politica .politica-info p {
   font-family: 'Montserrat';
-  font-weight: normal;
+  font-weight: 500;
   font-style: normal;
   color: #000;
   font-size: 15px;

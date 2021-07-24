@@ -224,8 +224,9 @@ p {
         display: table;
         margin: 10% auto 0;
         width: 40%;
-        background-color: #d8602c;
-        padding: 20px 10px;
+        background-color: #f36e3c;
+        border-radius: 14px;
+        padding: 40px 10px;
         position: relative;
 
         .close {
@@ -242,11 +243,11 @@ p {
 
         p {
             font-family: 'Montserrat';
-            font-weight: bold;
+            font-weight: 500;
             font-style: normal;
             font-size: 18px;
             line-height: 1.667;
-            color: #000000;
+            color: #ffffff;
         }
     }
 }
@@ -288,15 +289,16 @@ p {
     display: none;
 
     .box {
-        background-color: #d8602c;
+        background-color: #f36e3c;
         padding-top: 20px;
         padding-bottom: 20px;
+        border-radius: 14px;
         position: absolute;
         bottom: 20px;
 
         p {
             font-family: 'Montserrat';
-            font-weight: normal;
+            font-weight: 500;
             font-style: normal;
             color: #fff;
             font-size: 12px;
@@ -305,23 +307,24 @@ p {
 
             a {
                 color: #fff;
+                text-decoration: underline;
             }
         }
 
         .btn_cookie {
             font-family: 'Montserrat';
-            font-weight: bold;
+            font-weight: 500;
             font-style: normal;
             font-size: 16px;
             line-height: 16px;
-            color: #fff;
             border: 0px solid transparent;
             border-radius: 50px;
             padding: 12px 30px;
             width: 160px;
             margin-top: 7px;
             box-shadow: none;
-            background: #000000;
+            background-color: #8996b9;
+            color: #ffffff;
         }
     }
 }

@@ -3,12 +3,13 @@
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 text-center">
                 <figure>
-                    <img class="img-responsive center-block bcanton" src="<?= base_url(); ?>assets/images/bcanton.png" alt="B.Canton">
+                    <figcaption>UMA REALIZAÇÃO:</figcaption>
+                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/chalet.jpg" alt="Chalet">
                 </figure>
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container margin-top-30">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
                 <ul class="nav navbar-nav">
@@ -18,8 +19,7 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 margin-top-20 text-center">
                 <p>
-                    Empreendimento aprovado junto a Prefeitura de Santo André sob o alvará nº 792.601062021.<br />
-                    O Empreendimento só será comercializado após o registro de Incorporação.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste cupiditate dolore dignissimos dolores aspernatur. Fugit doloremque odio fuga a ipsa repudiandae minima accusantium nobis sint soluta. Tempore facere voluptatibus cum?
                 </p>
             </div>
         </div>
