@@ -277,7 +277,7 @@ p {
   margin-bottom: 1px;
   padding: 10px 15px;
   text-transform: uppercase;
-  font-family: 'Gill Sans Std';
+  font-family: 'Proxima Nova Rg';
   font-weight: normal;
   font-style: normal;
   font-size: 12px;
@@ -294,26 +294,26 @@ p {
 .float-box .chat {
   background: url(../images/icone-chat.png) no-repeat right 10px center;
   background-color: rgba(0, 0, 0, 0);
-  background-color: #cd1418;
+  background-color: #f26722;
 }
 
 .float-box .phone {
   background: url(../images/icone-tel.png) no-repeat right 10px center;
   background-color: rgba(0, 0, 0, 0);
-  background-color: #cd1418;
+  background-color: #f26722;
   font-size: 18px;
 }
 
 .float-box .mail {
   background: url(../images/icone-mail.png) no-repeat right 10px center;
   background-color: rgba(0, 0, 0, 0);
-  background-color: #cd1418;
+  background-color: #f26722;
 }
 
 .float-box .whats {
   background: url(../images/icone-zap.png) no-repeat right 10px center;
   background-color: rgba(0, 0, 0, 0);
-  background-color: #cd1418;
+  background-color: #f26722;
 }
 
 .aviso {
@@ -501,21 +501,31 @@ p {
 .menu {
   width: 100%;
   position: fixed;
-  background-color: #ffffff;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d2bfc2+0,ffffff+35,ffffff+65,d2bfc2+100 */
+  background: #d2bfc2;
+  /* Old browsers */
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#d2bfc2), color-stop(35%, #ffffff), color-stop(65%, #ffffff), to(#d2bfc2));
+  background: linear-gradient(to right, #d2bfc2 0%, #ffffff 35%, #ffffff 65%, #d2bfc2 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d2bfc2', endColorstr='#d2bfc2', GradientType=1);
+  /* IE6-9 */
   border-color: transparent;
   min-height: auto;
   margin-bottom: 0px;
   border: 0px solid transparent;
-  z-index: 300;
+  z-index: 301;
   border-radius: 0px;
   box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.24);
   -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.24);
   -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.24);
+  height: 69px;
 }
 
 .menu .navbar-brand {
   height: auto;
-  padding: 0 0 0 0;
+  padding: 15px 0 0 0;
 }
 
 .menu .navbar-right {
@@ -553,18 +563,42 @@ p {
   background-color: transparent;
 }
 
+.fases {
+  width: 100%;
+  position: fixed;
+  z-index: 300;
+  top: 69px;
+  background-color: #003366;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.fases p {
+  font-size: 15px;
+  line-height: 15px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: 'Helvetica Neue LT Std';
+  font-weight: 900;
+  font-style: normal;
+  letter-spacing: 6px;
+}
+
 /* Extra Small */
 @media (max-width: 767px) {
   .menu {
     padding-top: 0px;
     padding-bottom: 0px;
+    height: auto;
+  }
+  .menu .navbar-header {
+    padding-bottom: 5px;
   }
   .menu .navbar-brand {
+    width: 80px;
+    position: absolute;
     height: auto;
-    padding: 7px 0 7px 0;
-  }
-  .menu .navbar-brand img {
-    width: 70%;
+    padding: 5px 0 0px 5px;
   }
   .menu .navbar-right {
     padding: 0px 15px;
@@ -582,23 +616,41 @@ p {
     border-bottom: solid 1px #f36e3c;
     padding-top: 14px;
   }
+  .fases {
+    top: 62px;
+  }
+  .fases p {
+    font-size: 9px;
+    line-height: 12px;
+  }
 }
 
 /* Small */
 @media (min-width: 768px) and (max-width: 991px) {
+  .menu .navbar-brand {
+    width: 80px;
+    position: absolute;
+    height: auto;
+    padding: 5px 0 0px 5px;
+  }
   .menu .navbar-right li > a {
     padding: 15px 5px;
   }
 }
 
 /* Medium */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .menu .navbar-brand {
+    width: 130px;
+    position: absolute;
+    height: auto;
+    padding: 5px 0 0px 5px;
+  }
+}
+
 /* Large */
-.faixa-home {
-  background: url(../images/faixa-home.jpg) no-repeat;
-  background-position: center;
-  background-size: cover;
-  padding-top: 80px;
-  padding-bottom: 10px;
+.home {
+  padding-top: 98px;
 }
 
 #first {
@@ -632,6 +684,7 @@ p {
   padding-top: 50px;
   padding-bottom: 80px;
   position: relative;
+  margin-top: -5px;
 }
 
 .conceito .txt {
@@ -639,7 +692,7 @@ p {
   font-weight: 300;
   font-style: normal;
   color: #000000;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 24px;
   margin-bottom: 40px;
 }
@@ -669,15 +722,8 @@ p {
 
 /* Extra Small */
 @media (max-width: 767px) {
-  .faixa-home {
-    background: url(../images/faixa-home-mobile.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding-top: 75px;
-    padding-bottom: 5px;
-  }
-  .faixa-home .logo-home {
-    max-width: 30%;
+  .home {
+    padding-top: 88px;
   }
   #first {
     background: url(../images/girasol_home_1.png) 0% 0 no-repeat fixed;
@@ -697,6 +743,7 @@ p {
     background-size: cover;
     padding-top: 30px;
     padding-bottom: 40px;
+    margin-top: -6px;
   }
   .conceito .txt {
     font-size: 15px;
@@ -718,16 +765,6 @@ p {
 
 /* Small */
 @media (min-width: 768px) and (max-width: 991px) {
-  .faixa-home {
-    background: url(../images/faixa-home-mobile.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding-top: 75px;
-    padding-bottom: 5px;
-  }
-  .faixa-home .logo-home {
-    max-width: 30%;
-  }
   #first {
     background: url(../images/girasol_home_1.png) 0% 0 no-repeat fixed;
     background-size: 40%;
@@ -807,11 +844,11 @@ p {
 
 .fotoAerea .tt {
   font-family: 'Helvetica Neue LT Std';
-  font-weight: 900;
+  font-weight: 200;
   font-style: normal;
   color: #000000;
   text-transform: uppercase;
-  letter-spacing: 3px;
+  letter-spacing: 5px;
   font-size: 24px;
   line-height: 34px;
   margin-bottom: 30px;
@@ -986,11 +1023,11 @@ p {
 
 .lazer .tt {
   font-family: 'Helvetica Neue LT Std';
-  font-weight: 900;
+  font-weight: 200;
   font-style: normal;
   color: #000000;
   text-transform: uppercase;
-  letter-spacing: 3px;
+  letter-spacing: 5px;
   font-size: 18px;
   line-height: 38px;
   margin-bottom: 30px;

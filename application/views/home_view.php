@@ -26,17 +26,34 @@
         </div>
     </div>
 </nav>
-<div id="home" class="container-fluid padding-off faixa-home">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <img class="img-responsive center-block logo-home" src="<?= base_url(); ?>assets/images/logo-home.png" alt="Solaris Residencial & Resort">
-            </div>
+<div class="fases container-fluid">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+            <p>2a FASE: Reserva do Empreendedor</p>
         </div>
     </div>
 </div>
-<div class="container-fluid padding-off">
-    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/chamada.jpg" alt="Solaris Residencial & Resort">
+<div id="home" class="container-fluid padding-off home">
+    <div class="galeria">
+        <section class="glr-home slider">
+            <div>
+                <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/galeria/home_galeria_01.jpg" alt="Solaris Residencial & Resort">
+                <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria/home_galeria_01_mobile.jpg" alt="Solaris Residencial & Resort">
+            </div>
+            <div>
+                <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/galeria/home_galeria_02.jpg" alt="Solaris Residencial & Resort">
+                <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria/home_galeria_02_mobile.jpg" alt="Solaris Residencial & Resort">
+            </div>
+            <div>
+                <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/galeria/home_galeria_03.jpg" alt="Solaris Residencial & Resort">
+                <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria/home_galeria_03_mobile.jpg" alt="Solaris Residencial & Resort">
+            </div>
+            <div>
+                <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/galeria/home_galeria_04.jpg" alt="Solaris Residencial & Resort">
+                <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria/home_galeria_04_mobile.jpg" alt="Solaris Residencial & Resort">
+            </div>
+        </section>
+    </div>
 </div>
 <div id="first"></div>
 <div id="second"></div>
@@ -45,17 +62,15 @@
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 text-center">
                 <p class="txt">
-                    Um grande lugar é onde sua vida se torna grande. Porque um grande lugar é feito de grandes momentos,
-                    grandes encontros, grandes lembranças e de grandes realizações. E nenhuma realização pode ser
-                    maior que viver verdadeiramente bem. Pertinho de São Paulo, na linda cidade de Boituva, existe um lugar onde a vida
-                    é grande e os dias brilham mais forte: SOLARIS - RESIDENCIAL RESORT, um exclusivo loteamento fechado repleto de diversão,
-                    natureza e bem-estar, pronto para você construir a casa e a vida dos seus sonhos.<br class="hidden-xs" />
-                    Venha para o SOLARIS e deixe este grande e maravilhoso lugar dar um brilho inesquecível à sua vida!
+                    A vida é uma reserva de surpresas incríveis e encantadoras. A poucos minutos de São Paulo, na linda cidade de Boituva,<br class="hidden-xs" />
+                    existe uma delas. Um privilégio chamado <strong>Solaris</strong>. Uma preciosidade que estava guardada para sua família.<br class="hidden-xs" />
+                    <strong>Solaris</strong> é um magnífico residencial fechado e cercado por muita segurança, natureza, liberdade e um lazer sem igual na região.<br class="hidden-xs" />
+                    Venha para o <strong>Solaris</strong>. Uma exclusividade e uma surpresa que a vida e a Chalet Empreendimentos reservaram para você.
                 </p>
                 <p class="tt">
                     <strong>
-                        SEUS MAIORES E MAIS BRILHANTES DIAS<br />
-                        ESTÃO só esperando por VOCÊ.
+                        Sua reserva de exclusividade<br />
+                        está pronta e esperando por você.
                     </strong>
                 </p>
             </div>
@@ -81,9 +96,9 @@
                     <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 padding-off">
                         <p class="tt">
                             <span>Boituva.</span><br />
-                            UMA CIDADE ONDE<br />
-                            O CÉU E A NATUREZA<br />
-                            BRILHAM O ANO TODO.
+                            Uma cidade que<br />
+                            reserva encantos<br />
+                            na terra e no céu.
                         </p>
                     </div>
                 </div>
@@ -113,8 +128,10 @@
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
                 <p class="tt">
+                    Aqui está a sua reserva
+                    <br />
                     <strong>
-                        UM GRANDE LUGAR.<br class="visible-xs" /> UMA GRANDE VIDA.
+                        de exclusividade, <br class="visible-xs" />liberdade e tranquilidade.
                     </strong>
                 </p>
             </div>
@@ -156,18 +173,17 @@
                     </section>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 BeneditoAbbud">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 BeneditoAbbud">
                 <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/BeneditoAbbud.png" alt="Benedito Abbud">
+                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/logo_BeneditoAbbud.png" alt="Benedito Abbud">
                 </div>
-                <div class="col-xs-12 col-sm-7 col-md-8 col-lg-8">
+                <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
                     <p>
-                        Nonononon onon onononon onononon ono nonono nonoonon
-                        nononono onononnon nnononon oonon oonono oononon onono ononnon
-                        nonoonononon onon onononononon ooononon onono oo onononoo
-                        nononon oononono onononon nonoonon onononono.
-                        <br />
-                        <strong>Benedito Abbud</strong>
+                        Solaris é um projeto grandioso, com paisagismo e urbanismo
+                        assinado pelo conceituado e premiado escritório de Benedito Abbud.
+                        O lugar perfeito para você construir uma nova e grande vida,
+                        com mais espaço, lazer e segurança para sua família.
+                        É chegar e desfrutar o brilho especial deste residencial único.
                     </p>
                 </div>
             </div>
@@ -180,8 +196,8 @@
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
                 <p class="tt">
-                    CLUBE E CENTRO HÍPICO COMPLETOS E PRONTOS.<br />
-                    É SÓ CHEGAR, APROVEITAR E DEIXAR A VIDA BRILHAR.
+                    Reserve seu tempo para<br />
+                    o que realmente importa: <br class="visible-xs" /> <strong>viver bem a vida</strong>.
                 </p>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
@@ -221,10 +237,9 @@
             <div class="col-xs-12 col-sm-12 col-md-12 text-center padding-off">
                 <p>
                     <strong>
-                        NO SOLARIS A VIDA E O LAZER SÃO GRANDES.<br/>
-                        JÁ OS PREÇOS, CABEM NO SEU BOLSO.<br/><br/>
-
-                        SAIBA MAIS E SURPREENDA-SE.
+                        Toda essa exclusividade<br />
+                        custa bem menos do que você imagina.<br />
+                        Entre em contato e saiba mais.
                     </strong>
                 </p>
             </div>

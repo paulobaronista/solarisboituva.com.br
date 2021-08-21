@@ -1,4 +1,13 @@
 $(document).on('ready', function () {
+	$(".glr-home").slick({
+		arrows: false,
+		dots: false,
+		infinite: true,
+		speed: 500,
+		autoplay: true,
+		autoplaySpeed: 4000,
+	});
+
 	$('.galeria-perpectivas').slick({
 		draggable: false,
 		arrows: true,
@@ -29,55 +38,55 @@ $(document).ready(function () {
 
 // Script Scroll OnPage
 $(document).ready(function () {
-    $(document).on("scroll", onScroll);
-    $('.scrollink').on('click', function (e) {
-        e.preventDefault();
-        $(document).off("scroll");
-        $('.scrollink').each(function () {
-            $(this).removeClass('active');
-        })
-        $(this).addClass('active');
-        var target = this.hash,
-            $target = $(target);
-        $('html, body').stop().animate({ scrollTop: $target.offset().top - 69 }, 500, 'swing', function () {
-            // window.location.hash = target;
-            $(document).on("scroll", onScroll);
-        });
-    });
+	$(document).on("scroll", onScroll);
+	$('.scrollink').on('click', function (e) {
+		e.preventDefault();
+		$(document).off("scroll");
+		$('.scrollink').each(function () {
+			$(this).removeClass('active');
+		})
+		$(this).addClass('active');
+		var target = this.hash,
+			$target = $(target);
+		$('html, body').stop().animate({ scrollTop: $target.offset().top - 69 }, 500, 'swing', function () {
+			// window.location.hash = target;
+			$(document).on("scroll", onScroll);
+		});
+	});
 });
 
 function onScroll(event) {
-    var scrollPos = $(document).scrollTop();
-    $('#menuCenter .scrollink').each(function () {
-        var currLink = $(this);
-        var refElement = $(currLink.attr("href"));
-        if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
-            $('#menuCenter ul li .scrollink').removeClass("active");
-            currLink.addClass("active");
-        } else {
-            currLink.removeClass("active");
-        }
-    });
+	var scrollPos = $(document).scrollTop();
+	$('#menuCenter .scrollink').each(function () {
+		var currLink = $(this);
+		var refElement = $(currLink.attr("href"));
+		if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+			$('#menuCenter ul li .scrollink').removeClass("active");
+			currLink.addClass("active");
+		} else {
+			currLink.removeClass("active");
+		}
+	});
 }
 
 $(document).on('ready', function () {
-    $('.navbar-collapse a').click(function () {
-        $(".navbar-collapse").collapse('hide');
-    });
+	$('.navbar-collapse a').click(function () {
+		$(".navbar-collapse").collapse('hide');
+	});
 });
 
-$(function(){
+$(function () {
 	$('.nome').clear();
 	$('.email').clear();
 	$('.phone').clear();
 	$('.msg').clear();
 
-	$('.btn_enviar').on('click', function(){
+	$('.btn_enviar').on('click', function () {
 		var n, e, t, m, s;
 		var msg = "";
 		n = $('.nome').val();
 		e = $('.email').val();
 		t = $('.phone').val();
 		m = $('.msg').val();
-		});
+	});
 });

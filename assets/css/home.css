@@ -1,9 +1,5 @@
-.faixa-home {
-  background: url(../images/faixa-home.jpg) no-repeat;
-  background-position: center;
-  background-size: cover;
-  padding-top: 80px;
-  padding-bottom: 10px;
+.home {
+  padding-top: 98px;
 }
 
 #first {
@@ -37,6 +33,7 @@
   padding-top: 50px;
   padding-bottom: 80px;
   position: relative;
+  margin-top: -5px;
 }
 
 .conceito .txt {
@@ -44,7 +41,7 @@
   font-weight: 300;
   font-style: normal;
   color: #000000;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 24px;
   margin-bottom: 40px;
 }
@@ -74,15 +71,8 @@
 
 /* Extra Small */
 @media (max-width: 767px) {
-  .faixa-home {
-    background: url(../images/faixa-home-mobile.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding-top: 75px;
-    padding-bottom: 5px;
-  }
-  .faixa-home .logo-home {
-    max-width: 30%;
+  .home {
+    padding-top: 88px;
   }
   #first {
     background: url(../images/girasol_home_1.png) 0% 0 no-repeat fixed;
@@ -102,6 +92,7 @@
     background-size: cover;
     padding-top: 30px;
     padding-bottom: 40px;
+    margin-top: -6px;
   }
   .conceito .txt {
     font-size: 15px;
@@ -123,16 +114,6 @@
 
 /* Small */
 @media (min-width: 768px) and (max-width: 991px) {
-  .faixa-home {
-    background: url(../images/faixa-home-mobile.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding-top: 75px;
-    padding-bottom: 5px;
-  }
-  .faixa-home .logo-home {
-    max-width: 30%;
-  }
   #first {
     background: url(../images/girasol_home_1.png) 0% 0 no-repeat fixed;
     background-size: 40%;
