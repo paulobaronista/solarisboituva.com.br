@@ -7,21 +7,21 @@
                 <span class="icon-bar" style="background-color: #f36e3c;"></span>
                 <span class="icon-bar" style="background-color: #f36e3c;"></span>
             </button>
-            <a class="navbar-brand" href="https://www.solarisboituva.com.br/#home">
+            <a class="navbar-brand" href="https://www.solarisresidencial.com.br/#home">
                 <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/logo-solaris.png" alt="Solaris Residencial & Resort">
             </a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul id="#menuCenter" class="nav navbar-nav navbar-right">
-                <li><a href="https://www.solarisboituva.com.br/#home">Home</a></li>
-                <li><a href="https://www.solarisboituva.com.br/#conceito">CONCEITO</a></li>
-                <li><a href="https://www.solarisboituva.com.br/#video">FILME</a></li>
-                <li><a href="https://www.solarisboituva.com.br/#localizacao">LOCALIZAÇÃO</a></li>
-                <li><a href="https://www.solarisboituva.com.br/#terrenos">TERRENOS</a></li>
-                <li><a href="https://www.solarisboituva.com.br/#lazer">LAZER</a></li>
-                <li><a href="https://www.solarisboituva.com.br/#diferenciais">DIFERENCIAIS</a></li>
-                <li><a href="https://www.solarisboituva.com.br/#galeria">GALERIA</a></li>
-                <li><a href="https://www.solarisboituva.com.br/#contato">Contato</a></li>
+                <li><a href="https://www.solarisresidencial.com.br/#home">Home</a></li>
+                <li><a href="https://www.solarisresidencial.com.br/#conceito">CONCEITO</a></li>
+                <li><a href="https://www.solarisresidencial.com.br/#video">FILME</a></li>
+                <li><a href="https://www.solarisresidencial.com.br/#localizacao">LOCALIZAÇÃO</a></li>
+                <li><a href="https://www.solarisresidencial.com.br/#terrenos">TERRENOS</a></li>
+                <li><a href="https://www.solarisresidencial.com.br/#lazer">LAZER</a></li>
+                <li><a href="https://www.solarisresidencial.com.br/#diferenciais">DIFERENCIAIS</a></li>
+                <li><a href="https://www.solarisresidencial.com.br/#galeria">GALERIA</a></li>
+                <li><a href="https://www.solarisresidencial.com.br/#contato">Contato</a></li>
             </ul>
         </div>
     </div>

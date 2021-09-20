@@ -9,9 +9,9 @@ echo script_tag('assets/js/jquery.inview.js');
 ?>
 
 <div class="float-box">
-    <a href="#" class="chat" target="_blank">Chat on-line</a>
-    <a href="#" class="phone">(XX) XXXX-XXXX</a>
-    <a href="#" target="_blank" class="whats">Whatsapp</a>
+    <!-- <a href="#" class="chat" target="_blank">Chat on-line</a> -->
+    <a href="#" class="phone">(XX) 99681-0304</a>
+    <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5511996810304" target="_blank" class="whats">Whatsapp</a>
 </div>
 
 </body>

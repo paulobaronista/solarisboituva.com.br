@@ -19,7 +19,7 @@ $(document).on('ready', function () {
 $(document).ready(function () {
 	$("#close").click(function () {
 		$("#aviso").hide();
-		window.location.href = "https://www.solarisboituva.com.br/"
+		window.location.href = "https://www.solarisresidencial.com.br/"
 	});
 });
 
@@ -82,7 +82,7 @@ $(function () {
 	$('.msg').clear();
 
 	$('.btn_enviar').on('click', function () {
-		var n, e, t, m, s;
+		var n, e, t, m;
 		var msg = "";
 		n = $('.nome').val();
 		e = $('.email').val();

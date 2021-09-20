@@ -941,7 +941,7 @@ p {
 
 .terrenos .galeria {
   position: relative;
-  z-index: 200;
+  z-index: 300;
 }
 
 .terrenos .BeneditoAbbud {

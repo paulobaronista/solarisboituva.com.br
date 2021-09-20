@@ -8,8 +8,8 @@ class Contato extends CI_Controller{
     }
     public function index(){
         $data['title'] = 'Solaris Residencial & Resort';
-        $data['description'] = '';
-        $data['keywords'] = '';
+        $data['description'] = 'A vida é uma reserva de surpresas incríveis e encantadoras. A poucos minutos de São Paulo, na linda cidade de Boituva.';
+        $data['keywords'] = 'são paulo, boituva, solaris, residencial, resort';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_view';
 
@@ -18,15 +18,15 @@ class Contato extends CI_Controller{
             $email = $this->input->post('email');
             $telefone = $this->input->post('phone');
             $mensagem = utf8_decode($this->input->post('mss'));
-            $assunto = utf8_decode('Contato enviado pelo site www.solarisboituva.com.br');
+            $assunto = utf8_decode('Contato enviado pelo site www.solarisresidencial.com.br');
 
             $this->load->library('email');
             $config['mailtype'] = 'html';
             $this->email->initialize($config);
 
-            $this->email->from("contato@solarisboituva.com.br","Solaris Residencial & Resort");
-            $this->email->to('contato@solarisboituva.com.br');
-            $this->email->cc('paulobaronista@gmail.com');
+            $this->email->from("contato@solarisresidencial.com.br","Solaris Residencial & Resort");
+            $this->email->to('contato@solarisresidencial.com.br');
+            $this->email->cc('alebertone@spicycomm.com.br, renata@spicycomm.com.br, paulobaronista@gmail.com');
 
             $this->email->subject($assunto);
             $this->email->message("<html xmlns='http://www.w3.org/1999/xhtml' dir='ltr' lang='pt-br'>
@@ -54,8 +54,8 @@ class Contato extends CI_Controller{
 
     public function obrigado(){
         $data['title'] = 'Solaris Residencial & Resort';
-        $data['description'] = '';
-        $data['keywords'] = '';
+        $data['description'] = 'A vida é uma reserva de surpresas incríveis e encantadoras. A poucos minutos de São Paulo, na linda cidade de Boituva.';
+        $data['keywords'] = 'são paulo, boituva, solaris, residencial, resort';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_sucesso';
         $this->load->view('html_header', $data);
@@ -68,8 +68,8 @@ class Contato extends CI_Controller{
 
     public function fail(){
         $data['title'] = 'Solaris Residencial & Resort';
-        $data['description'] = '';
-        $data['keywords'] = '';
+        $data['description'] = 'A vida é uma reserva de surpresas incríveis e encantadoras. A poucos minutos de São Paulo, na linda cidade de Boituva.';
+        $data['keywords'] = 'são paulo, boituva, solaris, residencial, resort';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_insucesso';
         $this->load->view('html_header', $data);

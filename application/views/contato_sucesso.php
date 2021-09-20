@@ -7,21 +7,21 @@
                 <span class="icon-bar" style="background-color: #f36e3c;"></span>
                 <span class="icon-bar" style="background-color: #f36e3c;"></span>
             </button>
-            <a class="navbar-brand" href="https://www.solarisboituva.com.br/#home">
+            <a class="navbar-brand" href="https://www.solarisresidencial.com.br/#home">
                 <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/logo-solaris.png" alt="Solaris Residencial & Resort">
             </a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul id="#menuCenter" class="nav navbar-nav navbar-right">
-                <li><a href="https://www.solarisboituva.com.br/#home">Home</a></li>
-                <li><a href="https://www.solarisboituva.com.br/#conceito">CONCEITO</a></li>
-                <li><a href="https://www.solarisboituva.com.br/#video">FILME</a></li>
-                <li><a href="https://www.solarisboituva.com.br/#localizacao">LOCALIZAÇÃO</a></li>
-                <li><a href="https://www.solarisboituva.com.br/#terrenos">TERRENOS</a></li>
-                <li><a href="https://www.solarisboituva.com.br/#lazer">LAZER</a></li>
-                <li><a href="https://www.solarisboituva.com.br/#diferenciais">DIFERENCIAIS</a></li>
-                <li><a href="https://www.solarisboituva.com.br/#galeria">GALERIA</a></li>
-                <li><a href="https://www.solarisboituva.com.br/#contato">Contato</a></li>
+                <li><a href="https://www.solarisresidencial.com.br/#home">Home</a></li>
+                <li><a href="https://www.solarisresidencial.com.br/#conceito">CONCEITO</a></li>
+                <li><a href="https://www.solarisresidencial.com.br/#video">FILME</a></li>
+                <li><a href="https://www.solarisresidencial.com.br/#localizacao">LOCALIZAÇÃO</a></li>
+                <li><a href="https://www.solarisresidencial.com.br/#terrenos">TERRENOS</a></li>
+                <li><a href="https://www.solarisresidencial.com.br/#lazer">LAZER</a></li>
+                <li><a href="https://www.solarisresidencial.com.br/#diferenciais">DIFERENCIAIS</a></li>
+                <li><a href="https://www.solarisresidencial.com.br/#galeria">GALERIA</a></li>
+                <li><a href="https://www.solarisresidencial.com.br/#contato">Contato</a></li>
             </ul>
         </div>
     </div>
@@ -74,7 +74,7 @@
                     </strong>
                 </p>
             </div>
-            <div id="video" class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+            <!-- <div id="video" class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
                 <div class="boxVideo">
                     <video width="100%" height="auto" autoplay="autoplay" controls muted>
                         <source src="<?= base_url(); ?>assets/video/video.mp4" type="video/mp4">
@@ -82,7 +82,7 @@
                         Your browser does not support the video tag.
                     </video>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
     <img class="img-responsive center-block girasol_home_3" src="<?= base_url(); ?>assets/images/girasol_home_3.png" alt="Solaris Residencial & Resort">

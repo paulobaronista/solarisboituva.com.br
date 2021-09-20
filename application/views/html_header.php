@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="title" content="Solaris Residencial & Resort" />
     <meta name="og:title" content="Solaris Residencial & Resort" />
-    <meta name="og:description" content="" />
+    <meta name="og:description" content="A vida é uma reserva de surpresas incríveis e encantadoras. A poucos minutos de São Paulo, na linda cidade de Boituva." />
     <meta name="og:image" content="<?= base_url(); ?>assets/images/compartilhamento.png" />
     <link rel="icon" href="<?= base_url(); ?>assets/images/favicon.png">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?= base_url(); ?>assets/images/apple-touch-icon-144-precomposed.png">
@@ -20,8 +20,8 @@
     <!-- property (faz funcionar no linkedin) -->
     <meta property="og:title" content="Solaris Residencial & Resort" />
     <meta property="og:image" content="<?= base_url(); ?>assets/images/compartilhamento.png" />
-    <meta property="" />
-    <meta property="og:url" content="https://www.solarisboituva.com.br" />
+    <meta property="A vida é uma reserva de surpresas incríveis e encantadoras. A poucos minutos de São Paulo, na linda cidade de Boituva." />
+    <meta property="og:url" content="https://www.solarisresidencial.com.br" />
     <!-- property (faz funcionar no linkedin) -->
     <?php
     $meta = array(
@@ -33,7 +33,7 @@
     );
     echo meta($meta);
     echo link_tag('assets/css/bootstrap.min.css');
-    echo link_tag('assets/css/style.css?v=0.0.6');
+    echo link_tag('assets/css/style.css?v=0.0.7');
     echo link_tag('assets/css/slick.css?v=0.0.2');
     echo link_tag('assets/css/slick-theme.css?v=0.0.4');
     ?>

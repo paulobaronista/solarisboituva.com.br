@@ -8,8 +8,8 @@ class Home extends CI_Controller{
     }
     public function index(){
         $data['title'] = 'Solaris Residencial & Resort';
-        $data['description'] = '';
-        $data['keywords'] = '';
+        $data['description'] = 'A vida é uma reserva de surpresas incríveis e encantadoras. A poucos minutos de São Paulo, na linda cidade de Boituva.';
+        $data['keywords'] = 'são paulo, boituva, solaris, residencial, resort';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'home_view';
         $this->load->view('html_header', $data);
@@ -22,8 +22,8 @@ class Home extends CI_Controller{
     }
     public function politicadeprivacidade() {
         $data['title'] = 'Solaris Residencial & Resort';
-        $data['description'] = '';
-        $data['keywords'] = '';
+        $data['description'] = 'A vida é uma reserva de surpresas incríveis e encantadoras. A poucos minutos de São Paulo, na linda cidade de Boituva.';
+        $data['keywords'] = 'são paulo, boituva, solaris, residencial, resort';
         $menu['politicadeprivacidade'] = 'active';
         $conteudo['pagina_view'] = 'politicadeprivacidade_view';
         $this->load->view('html_header', $data);

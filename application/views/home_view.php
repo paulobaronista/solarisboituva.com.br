@@ -74,7 +74,7 @@
                     </strong>
                 </p>
             </div>
-            <div id="video" class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+            <!-- <div id="video" class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
                 <div class="boxVideo">
                     <video width="100%" height="auto" autoplay="autoplay" controls muted>
                         <source src="<?= base_url(); ?>assets/video/video.mp4" type="video/mp4">
@@ -82,7 +82,7 @@
                         Your browser does not support the video tag.
                     </video>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
     <img class="img-responsive center-block girasol_home_3" src="<?= base_url(); ?>assets/images/girasol_home_3.png" alt="Solaris Residencial & Resort">
