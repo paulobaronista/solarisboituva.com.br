@@ -15,7 +15,7 @@
             <ul id="#menuCenter" class="nav navbar-nav navbar-right">
                 <li><a class="scrollink active" href="#home">Home</a></li>
                 <li><a class="scrollink" href="#conceito">CONCEITO</a></li>
-                <li><a class="scrollink" href="#video">FILME</a></li>
+                <!-- <li><a class="scrollink" href="#video">FILME</a></li> -->
                 <li><a class="scrollink" href="#localizacao">LOCALIZAÇÃO</a></li>
                 <li><a class="scrollink" href="#terrenos">TERRENOS</a></li>
                 <li><a class="scrollink" href="#lazer">LAZER</a></li>

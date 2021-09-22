@@ -15,7 +15,7 @@
             <ul id="#menuCenter" class="nav navbar-nav navbar-right">
                 <li><a href="https://www.solarisresidencial.com.br/#home">Home</a></li>
                 <li><a href="https://www.solarisresidencial.com.br/#conceito">CONCEITO</a></li>
-                <li><a href="https://www.solarisresidencial.com.br/#video">FILME</a></li>
+                <!-- <li><a href="https://www.solarisresidencial.com.br/#video">FILME</a></li> -->
                 <li><a href="https://www.solarisresidencial.com.br/#localizacao">LOCALIZAÇÃO</a></li>
                 <li><a href="https://www.solarisresidencial.com.br/#terrenos">TERRENOS</a></li>
                 <li><a href="https://www.solarisresidencial.com.br/#lazer">LAZER</a></li>

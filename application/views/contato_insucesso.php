@@ -15,7 +15,7 @@
             <ul id="#menuCenter" class="nav navbar-nav navbar-right">
                 <li><a href="https://www.solarisresidencial.com.br/#home">Home</a></li>
                 <li><a href="https://www.solarisresidencial.com.br/#conceito">CONCEITO</a></li>
-                <li><a href="https://www.solarisresidencial.com.br/#video">FILME</a></li>
+                <!-- <li><a href="https://www.solarisresidencial.com.br/#video">FILME</a></li> -->
                 <li><a href="https://www.solarisresidencial.com.br/#localizacao">LOCALIZAÇÃO</a></li>
                 <li><a href="https://www.solarisresidencial.com.br/#terrenos">TERRENOS</a></li>
                 <li><a href="https://www.solarisresidencial.com.br/#lazer">LAZER</a></li>
@@ -275,7 +275,7 @@
         <button type="button" class="close" id="close"><span aria-hidden="true">&times;</span></button>
         <p>O e-mail não pode ser enviado!<br />
             <strong>Tente novamente!</strong><br />
-            Se o problema persistir, entre em contato pelo telefone <strong>99681-0304</strong>
+            Se o problema persistir, entre em contato pelo telefone <strong>(15) 99681-0304</strong>
         </p>
     </div>
 </div>
