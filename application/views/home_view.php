@@ -165,10 +165,52 @@
                 <div class="galeria">
                     <section class="galeria-perpectivas slider">
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/perspectiva.jpg" alt="Solaris Residencial & Resort">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/terreno/perspectiva.jpg" alt="Solaris Residencial & Resort">
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/perspectiva.jpg" alt="Solaris Residencial & Resort">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/terreno/galeria_01.jpg" alt="Solaris Residencial & Resort">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/terreno/galeria_02.jpg" alt="Solaris Residencial & Resort">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/terreno/galeria_03.jpg" alt="Solaris Residencial & Resort">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/terreno/galeria_04.jpg" alt="Solaris Residencial & Resort">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/terreno/galeria_05.jpg" alt="Solaris Residencial & Resort">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/terreno/galeria_06.jpg" alt="Solaris Residencial & Resort">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/terreno/galeria_07.jpg" alt="Solaris Residencial & Resort">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/terreno/galeria_08.jpg" alt="Solaris Residencial & Resort">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/terreno/galeria_09.jpg" alt="Solaris Residencial & Resort">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/terreno/galeria_10.jpg" alt="Solaris Residencial & Resort">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/terreno/galeria_11.jpg" alt="Solaris Residencial & Resort">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/terreno/galeria_12.jpg" alt="Solaris Residencial & Resort">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/terreno/galeria_13.jpg" alt="Solaris Residencial & Resort">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/terreno/galeria_14.jpg" alt="Solaris Residencial & Resort">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/terreno/galeria_15.jpg" alt="Solaris Residencial & Resort">
                         </div>
                     </section>
                 </div>

@@ -26,7 +26,7 @@ class Contato extends CI_Controller{
 
             $this->email->from("contato@solarisresidencial.com.br","Solaris Residencial & Resort");
             $this->email->to('contato@solarisresidencial.com.br');
-            $this->email->cc('alebertone@spicycomm.com.br, renata@spicycomm.com.br, paulobaronista@gmail.com');
+            $this->email->cc('alebertone@spicycomm.com.br, renata@spicycomm.com.br, front.baronista@gmail.com');
 
             $this->email->subject($assunto);
             $this->email->message("<html xmlns='http://www.w3.org/1999/xhtml' dir='ltr' lang='pt-br'>

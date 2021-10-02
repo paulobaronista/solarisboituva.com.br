@@ -7,21 +7,21 @@
                 <span class="icon-bar" style="background-color: #f36e3c;"></span>
                 <span class="icon-bar" style="background-color: #f36e3c;"></span>
             </button>
-            <a class="navbar-brand" href="https://www.solarisresidencial.com.br/#home">
+            <a class="navbar-brand scrollink" href="#home">
                 <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/logo-solaris.png" alt="Solaris Residencial & Resort">
             </a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul id="#menuCenter" class="nav navbar-nav navbar-right">
-                <li><a href="https://www.solarisresidencial.com.br/#home">Home</a></li>
-                <li><a href="https://www.solarisresidencial.com.br/#conceito">CONCEITO</a></li>
-                <!-- <li><a href="https://www.solarisresidencial.com.br/#video">FILME</a></li> -->
-                <li><a href="https://www.solarisresidencial.com.br/#localizacao">LOCALIZAÇÃO</a></li>
-                <li><a href="https://www.solarisresidencial.com.br/#terrenos">TERRENOS</a></li>
-                <li><a href="https://www.solarisresidencial.com.br/#lazer">LAZER</a></li>
-                <li><a href="https://www.solarisresidencial.com.br/#diferenciais">DIFERENCIAIS</a></li>
-                <li><a href="https://www.solarisresidencial.com.br/#galeria">GALERIA</a></li>
-                <li><a href="https://www.solarisresidencial.com.br/#contato">Contato</a></li>
+                <li><a class="scrollink active" href="#home">Home</a></li>
+                <li><a class="scrollink" href="#conceito">CONCEITO</a></li>
+                <!-- <li><a class="scrollink" href="#video">FILME</a></li> -->
+                <li><a class="scrollink" href="#localizacao">LOCALIZAÇÃO</a></li>
+                <li><a class="scrollink" href="#terrenos">TERRENOS</a></li>
+                <li><a class="scrollink" href="#lazer">LAZER</a></li>
+                <li><a class="scrollink" href="#diferenciais">DIFERENCIAIS</a></li>
+                <li><a class="scrollink" href="#galeria">GALERIA</a></li>
+                <li><a class="scrollink" href="#contato">Contato</a></li>
             </ul>
         </div>
     </div>
@@ -165,10 +165,52 @@
                 <div class="galeria">
                     <section class="galeria-perpectivas slider">
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/perspectiva.jpg" alt="Solaris Residencial & Resort">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/terreno/perspectiva.jpg" alt="Solaris Residencial & Resort">
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/perspectiva.jpg" alt="Solaris Residencial & Resort">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/terreno/galeria_01.jpg" alt="Solaris Residencial & Resort">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/terreno/galeria_02.jpg" alt="Solaris Residencial & Resort">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/terreno/galeria_03.jpg" alt="Solaris Residencial & Resort">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/terreno/galeria_04.jpg" alt="Solaris Residencial & Resort">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/terreno/galeria_05.jpg" alt="Solaris Residencial & Resort">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/terreno/galeria_06.jpg" alt="Solaris Residencial & Resort">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/terreno/galeria_07.jpg" alt="Solaris Residencial & Resort">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/terreno/galeria_08.jpg" alt="Solaris Residencial & Resort">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/terreno/galeria_09.jpg" alt="Solaris Residencial & Resort">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/terreno/galeria_10.jpg" alt="Solaris Residencial & Resort">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/terreno/galeria_11.jpg" alt="Solaris Residencial & Resort">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/terreno/galeria_12.jpg" alt="Solaris Residencial & Resort">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/terreno/galeria_13.jpg" alt="Solaris Residencial & Resort">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/terreno/galeria_14.jpg" alt="Solaris Residencial & Resort">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/terreno/galeria_15.jpg" alt="Solaris Residencial & Resort">
                         </div>
                     </section>
                 </div>
