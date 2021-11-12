@@ -29,7 +29,7 @@
 <div class="fases container-fluid">
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-            <p>2a FASE: Reserva do Empreendedor</p>
+            <p><span style="letter-spacing: 2px;">2ª</span> FASE: Reserva do Empreendedor</p>
         </div>
     </div>
 </div>
@@ -270,6 +270,14 @@
             <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
                 <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/eomelhor.jpg" alt="Solaris Residencial & Resort">
             </div>
+        </div>
+    </div>
+</div>
+<div class="endereco container-fluid">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+            <p>RODOVIA CASTELO BRANCO - KM 116<br/>
+                estrada mun. boituva - sp, sentido iperó</p>
         </div>
     </div>
 </div>

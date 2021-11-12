@@ -77,6 +77,23 @@
     }
 }
 
+.endereco {
+    width: 100%;
+    background-color: #003366;
+    padding-top: 13px;
+    padding-bottom: 13px;
+
+    p {
+        font-size: 20px;
+        line-height: 30px;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-family: 'Helvetica Neue LT Std';
+        font-weight: 500;
+        font-style: normal;
+        letter-spacing: 6px;
+    }
+}
 
 
 /* Extra Small */
@@ -96,6 +113,14 @@
             margin-top: 30px;
         }
 
+    }
+
+    .endereco {
+
+        p {
+            font-size: 11px;
+            line-height: 21px;
+        }
     }
 }
 
