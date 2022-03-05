@@ -33,10 +33,25 @@
     );
     echo meta($meta);
     echo link_tag('assets/css/bootstrap.min.css');
-    echo link_tag('assets/css/style.css?v=0.1.0');
+    echo link_tag('assets/css/style.css?v=0.1.1');
     echo link_tag('assets/css/slick.css?v=0.0.2');
-    echo link_tag('assets/css/slick-theme.css?v=0.0.4');
+    echo link_tag('assets/css/slick-theme.css?v=0.0.5');
     ?>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-M6N61CLJ8R"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-M6N61CLJ8R');
+    </script>
+
+
 </head>
 
 <body>

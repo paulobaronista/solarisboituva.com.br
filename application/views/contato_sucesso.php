@@ -268,7 +268,49 @@
                 </p>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
-                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/eomelhor.jpg" alt="Solaris Residencial & Resort">
+                <div class="galeria">
+                    <section class="galeria-local slider">
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/eomelhor/eomelhor_01.jpg" alt="Solaris Residencial & Resort">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/eomelhor/eomelhor_02.jpg" alt="Solaris Residencial & Resort">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/eomelhor/eomelhor_03.jpg" alt="Solaris Residencial & Resort">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/eomelhor/eomelhor_04.jpg" alt="Solaris Residencial & Resort">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/eomelhor/eomelhor_05.jpg" alt="Solaris Residencial & Resort">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/eomelhor/eomelhor_06.jpg" alt="Solaris Residencial & Resort">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/eomelhor/eomelhor_07.jpg" alt="Solaris Residencial & Resort">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/eomelhor/eomelhor_08.jpg" alt="Solaris Residencial & Resort">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/eomelhor/eomelhor_09.jpg" alt="Solaris Residencial & Resort">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/eomelhor/eomelhor_10.jpg" alt="Solaris Residencial & Resort">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/eomelhor/eomelhor_11.jpg" alt="Solaris Residencial & Resort">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/eomelhor/eomelhor_12.jpg" alt="Solaris Residencial & Resort">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/eomelhor/eomelhor_13.jpg" alt="Solaris Residencial & Resort">
+                        </div>
+                    </section>
+                </div>
             </div>
         </div>
     </div>
@@ -276,7 +318,7 @@
 <div class="endereco container-fluid">
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-            <p>RODOVIA CASTELO BRANCO - KM 116<br/>
+            <p>RODOVIA CASTELO BRANCO - KM 116<br />
                 estrada mun. boituva - sp, sentido iperó</p>
         </div>
     </div>
@@ -293,6 +335,9 @@
                     </strong>
                 </p>
             </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 text-center padding-off">
+                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/caixa.jpg" alt="Solaris Residencial & Resort">
+            </div>
             <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 padding-off form">
                 <form method="post" role="form" action="<?php echo base_url("contato") ?>">
                     <div class="group-form">
@@ -304,7 +349,7 @@
                                 <input id="email" type="email" class="email form-control" name="email" required="required" placeholder="Email*" />
                             </div>
                             <div class="form-group">
-                                <input id="telefone" class="phone form-control" type="tel" name="phone" placeholder="Telefone" />
+                                <input id="telefone" class="phone form-control" type="tel" name="phone" required="required" placeholder="Telefone*" />
                             </div>
                             <div class="form-group">
                                 <textarea id="form-mensagem" class="msg form-control" rows="3" name="mss" placeholder="Mensagem..."></textarea>
@@ -327,3 +372,8 @@
             Já entraremos em contato para um <strong>atendimento exclusivo!</strong></p>
     </div>
 </div>
+
+<!-- Event snippet for Lead - Pagina de obrigado conversion page -->
+<script>
+  gtag('event', 'conversion', {'send_to': 'AW-10798426153/gydyCJnH84UDEKnQi50o'});
+</script>

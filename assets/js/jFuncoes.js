@@ -14,6 +14,14 @@ $(document).on('ready', function () {
 		dots: false,
 		infinite: true,
 	});
+
+	
+	$('.galeria-local').slick({
+		draggable: false,
+		arrows: true,
+		dots: false,
+		infinite: true,
+	});
 });
 
 $(document).ready(function () {
@@ -89,4 +97,6 @@ $(function () {
 		t = $('.phone').val();
 		m = $('.msg').val();
 	});
+
+	$('.phone').inputmask({ "mask": "(99) 999999999" });
 });
