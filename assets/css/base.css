@@ -217,6 +217,12 @@ p {
   background-color: #f26722;
 }
 
+.float-box .instagram {
+  background: url(../images/instagram.png) no-repeat right 10px center;
+  background-color: rgba(0, 0, 0, 0);
+  background-color: #f26722;
+}
+
 .aviso {
   background: rgba(0, 0, 0, 0.8);
   width: 100%;

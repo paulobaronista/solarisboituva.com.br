@@ -74,15 +74,13 @@
                     </strong>
                 </p>
             </div>
-            <!-- <div id="video" class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+            <div id="video" class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
                 <div class="boxVideo">
-                    <video width="100%" height="auto" autoplay="autoplay" controls muted>
-                        <source src="<?= base_url(); ?>assets/video/video.mp4" type="video/mp4">
-                        <source src="<?= base_url(); ?>assets/video/video.ogg" type="video/ogg">
-                        Your browser does not support the video tag.
-                    </video>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/HX5nuZ1tJnw"></iframe>
+                    </div>
                 </div>
-            </div> -->
+            </div>
         </div>
     </div>
     <img class="img-responsive center-block girasol_home_3" src="<?= base_url(); ?>assets/images/girasol_home_3.png" alt="Solaris Residencial & Resort">
@@ -339,7 +337,7 @@
                 <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/caixa.jpg" alt="Solaris Residencial & Resort">
             </div>
             <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 padding-off form">
-                <form method="post" role="form" action="<?php echo base_url("contato") ?>">
+                <form method="post" role="form" action="https://www.spicycomm.com.br/formEmail/solaris/contato">
                     <div class="group-form">
                         <div class="col-xs-12 col-sm-12 col-md-12">
                             <div class="form-group">
@@ -354,8 +352,13 @@
                             <div class="form-group">
                                 <textarea id="form-mensagem" class="msg form-control" rows="3" name="mss" placeholder="Mensagem..."></textarea>
                             </div>
-                            <div class="form-group">
-                                <button type="submit" class="btn_enviar btn" title="enviar" name="enviar_email" value="enviar">Enviar</button>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 padding-off">
+                            <div class="col-xs-12 col-sm-6 col-md-6 form-group">
+                                <div class="g-recaptcha" data-callback="recaptcha_callback" data-sitekey="6LfuPh4hAAAAAJZnUZg7VTCg8YlTbubVT-xW5maa" style="transform:scale(0.88);-webkit-transform:scale(0.88);transform-origin:0 0;-webkit-transform-origin:0 0;"></div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-6 form-group">
+                                <button type="submit" class="btn_enviar btn" title="enviar" name="enviar_email" value="enviar" disabled>Enviar</button>
                             </div>
                         </div>
                     </div>

@@ -74,15 +74,13 @@
                     </strong>
                 </p>
             </div>
-            <!-- <div id="video" class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+            <div id="video" class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
                 <div class="boxVideo">
-                    <video width="100%" height="auto" autoplay="autoplay" controls muted>
-                        <source src="<?= base_url(); ?>assets/video/video.mp4" type="video/mp4">
-                        <source src="<?= base_url(); ?>assets/video/video.ogg" type="video/ogg">
-                        Your browser does not support the video tag.
-                    </video>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/HX5nuZ1tJnw"></iframe>
+                    </div>
                 </div>
-            </div> -->
+            </div>
         </div>
     </div>
     <img class="img-responsive center-block girasol_home_3" src="<?= base_url(); ?>assets/images/girasol_home_3.png" alt="Solaris Residencial & Resort">
@@ -370,7 +368,7 @@
         <button type="button" class="close" id="close"><span aria-hidden="true">&times;</span></button>
         <p>O e-mail não pode ser enviado!<br />
             <strong>Tente novamente!</strong><br />
-            Se o problema persistir, entre em contato pelo telefone <strong>(15) 99681-0304</strong>
+            Se o problema persistir, entre em contato pelo telefone <strong>(11) 95917-5348</strong>
         </p>
     </div>
 </div>

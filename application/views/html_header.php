@@ -51,7 +51,7 @@
         gtag('config', 'G-M6N61CLJ8R');
     </script>
 
-
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 
 <body>

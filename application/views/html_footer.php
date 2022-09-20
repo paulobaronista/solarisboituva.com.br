@@ -12,8 +12,9 @@ echo script_tag('assets/js/jquery.inview.js');
 
 <div class="float-box">
     <!-- <a href="#" class="chat" target="_blank">Chat on-line</a> -->
-    <a href="#" class="phone">(15) 99681-0304</a>
-    <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5515996810304" target="_blank" class="whats">Whatsapp</a>
+    <a href="#" class="phone">(11) 95917-5348</a>
+    <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5511959175348" target="_blank" class="whats">Whatsapp</a>
+    <a href="https://bit.ly/3RF4fiF" target="_blank" class="instagram">Instagram</a>
 </div>
 
 <!-- Global site tag (gtag.js) - Google Ads: 10798426153 -->

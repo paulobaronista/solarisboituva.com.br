@@ -74,15 +74,13 @@
                     </strong>
                 </p>
             </div>
-            <!-- <div id="video" class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+            <div id="video" class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
                 <div class="boxVideo">
-                    <video width="100%" height="auto" autoplay="autoplay" controls muted>
-                        <source src="<?= base_url(); ?>assets/video/video.mp4" type="video/mp4">
-                        <source src="<?= base_url(); ?>assets/video/video.ogg" type="video/ogg">
-                        Your browser does not support the video tag.
-                    </video>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/HX5nuZ1tJnw"></iframe>
+                    </div>
                 </div>
-            </div> -->
+            </div>
         </div>
     </div>
     <img class="img-responsive center-block girasol_home_3" src="<?= base_url(); ?>assets/images/girasol_home_3.png" alt="Solaris Residencial & Resort">
@@ -369,11 +367,17 @@
     <div>
         <button type="button" class="close" id="close"><span aria-hidden="true">&times;</span></button>
         <p>Obrigado pelas informações.<br />
-            Já entraremos em contato para um <strong>atendimento exclusivo!</strong></p>
+            Já entraremos em contato para um <strong>atendimento exclusivo!</strong>
+            <br />
+            ou se preferir nos chame <br />via Whatsapp <a style="color: #fff;text-decoration: underline;" href="https://api.whatsapp.com/send?1=pt_BR&phone=5511959175348" target="_blank">(11) 95917-5348
+            </a>
+        </p>
     </div>
 </div>
 
 <!-- Event snippet for Lead - Pagina de obrigado conversion page -->
 <script>
-  gtag('event', 'conversion', {'send_to': 'AW-10798426153/gydyCJnH84UDEKnQi50o'});
+    gtag('event', 'conversion', {
+        'send_to': 'AW-10798426153/gydyCJnH84UDEKnQi50o'
+    });
 </script>

@@ -24,9 +24,9 @@ class Contato extends CI_Controller{
             $config['mailtype'] = 'html';
             $this->email->initialize($config);
 
-            $this->email->from("lead@solarisresidencial.com.br","Solaris Residencial & Resort");
-            $this->email->to('solange.chalet@gmail.com');
-            $this->email->cc('lmbatalha@hotmail.com, alebertone@spicycomm.com.br, renatajsimoes@gmail.com, front.baronista@gmail.com, lead@solarisresidencial.com.br, leadsboituvasolaris@gmail.com');
+            $this->email->from("solaris@solarisresidencial.com.br","Solaris Residencial & Resort");
+            $this->email->to('solaris@solarisresidencial.com.br');
+            $this->email->cc('atendimento.solaris3@gmail.com, barbara@spicycomm.com.br, solange.chalet@gmail.com, lmbatalha@hotmail.com, alebertone@spicycomm.com.br, renata@spicycomm.com.br, front.baronista@gmail.com, solaris@solarisresidencial.com.br, leadsboituvasolaris@gmail.com');
 
             $this->email->subject($assunto);
             $this->email->message("<html xmlns='http://www.w3.org/1999/xhtml' dir='ltr' lang='pt-br'>
@@ -37,11 +37,39 @@ class Contato extends CI_Controller{
                         Mensagem:	{$mensagem}<br/>
                             </body></html>");
 
+            $this->email->send();
+
             if($this->email->send()){
-                redirect('contato/obrigado');
+
+                $secret = "6LfuPh4hAAAAAOY18qzeyuSXERB71fxs6QCgREoI";
+                $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".$secret."&response=".$_POST['g-recaptcha-response'], false);
+                $response = json_decode($response, true);
+                // prepare post variables
+                $post = [
+                    'secret' => $secret,
+                    'response' => $_POST['g-recaptcha-response'],
+                ];
+
+                $ch = curl_init('https://www.google.com/recaptcha/api/siteverify');
+                curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+                curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
+
+                $response = curl_exec($ch);
+                curl_close($ch);
+
+                //var_dump($response);
+                $response = json_decode($response, true);
+
+                // check result
+                if(isset($response['success']) && $response['success'] == true){
+                    redirect('https://www.solarisresidencial.com.br/contato/obrigado');
+                }else{
+                    redirect('https://www.solarisresidencial.com.br/contato/fail');
+                }
             }else{
-                redirect('contato/fail');
+                redirect('https://www.solarisresidencial.com.br/contato/fail');
             }
+
         }
 
         $this->load->view('html_header', $data);
@@ -51,6 +79,7 @@ class Contato extends CI_Controller{
         $this->load->view('rodape');
         $this->load->view('html_footer');
     }
+
 
     public function obrigado(){
         $data['title'] = 'Solaris Residencial & Resort';
