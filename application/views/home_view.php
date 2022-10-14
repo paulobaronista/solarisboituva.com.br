@@ -121,6 +121,16 @@
         </div>
     </div>
 </div>
+<div class="container-fluid padding-off pontos-loc">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+        <p>No Solaris, você desfruta de uma atmosfera única de contato com a natureza, sem perder a infraestrutura completa de serviços e conveniências <br class="hidden-xs">
+        da cidade. Viva a perfeita harmonia entre beleza, tranquilidade e praticidade.</p>
+    </div>   
+    <div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
+        <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/pontos.png" alt="Solaris Residencial & Resort">
+        <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/pontos-mobile.png" alt="Solaris Residencial & Resort"> 
+    </div>   
+</div>
 <div class="container-fluid padding-off fotoAerea">
     <div class="container">
         <div class="row">

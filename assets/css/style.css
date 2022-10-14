@@ -860,6 +860,24 @@ p {
   margin-bottom: 30px;
 }
 
+.pontos-loc {
+  background: url(../images/bg_pontos.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.pontos-loc p {
+  font-family: 'Helvetica Neue LT Std';
+  font-weight: 500;
+  font-style: normal;
+  color: #000000;
+  font-size: 1vw;
+  line-height: 25px;
+  margin-bottom: 50px;
+}
+
 /* Extra Small */
 @media (max-width: 767px) {
   .localizacao {
@@ -879,6 +897,15 @@ p {
     line-height: 25px;
     margin-bottom: 20px;
   }
+  .pontos-loc {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .pontos-loc p {
+    font-size: 3vw;
+    line-height: 15px;
+    margin-bottom: 30px;
+  }
   .fotoAerea {
     background: #ffffff;
     padding-top: 30px;
@@ -887,7 +914,19 @@ p {
 }
 
 /* Small */
+@media (min-width: 768px) and (max-width: 991px) {
+  .pontos-loc p {
+    font-size: 1.6vw;
+  }
+}
+
 /* Medium */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .pontos-loc p {
+    font-size: 1.3vw;
+  }
+}
+
 /* Large */
 .terrenos {
   background: url(../images/bg_terrenos.jpg) no-repeat;
